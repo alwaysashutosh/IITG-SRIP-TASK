@@ -1,0 +1,10 @@
+path: C:/Users/ashut/OneDrive/Desktop/ashutosh/ML-OPS/IITG-Sample TAsk
+train: train/images
+val: val/images
+test: test/images
+
+nc: 1
+names: ["solar_panel"]
+
+# Add the mlflow setting *outside* the train/val/test definitions
+mlflow: False  # Correct placement and syntax
